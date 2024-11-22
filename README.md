@@ -22,9 +22,9 @@ Este projeto, em python, tem como objetivo armazenar e mostrar informações obt
 3. **(Opcional)Verifique o endereço da api:** Corrija se necessário o caminho da api contido no Web site e esp32 físico.
 
 ## Uso
-2. **Hardware:** Carregar o código adaptado para ter a conexão com a rede e para a placa esp32 física e conectar os componentes.
+1. **Hardware:** Carregar o código adaptado para ter a conexão com a rede e para a placa esp32 física e conectar os componentes.
 2. **Api:** Executar a api em dispositivo que esteja na mesma rede da placa física ou hospedado em servidor.
-4. **Início:** Ligar a placa e iniciar o sistema.
+3. **Início:** Ligar a placa e iniciar o sistema.
 
 ## Dependências
 * **Bibliotecas:** Pandas, Flask,flask_cors, Json e datetime
