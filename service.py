@@ -1,16 +1,18 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
+
 import json
 import csvManipulate as csv
 app = Flask(__name__)
-
+CORS(app)
 @app.route('/Energia', methods=['GET', 'POST'])
 def energia():
-    """Handles GET E POST /Energia endpoint.""" 
+    """Handles GET E POST /Energia endpoint."""
 
     if request.method == 'GET':
-        user_id = request.args.get('id') 
+        user_id = request.args.get('id')
         if user_id is None:
-            return jsonify({'error': 'Missing user id parameter.'}), 400 
+            return jsonify({'error': 'Missing user id parameter.'}), 400
 
         try:
             response_data = csv.getAll(user_id)
