@@ -27,7 +27,7 @@ Este projeto, em python, tem como objetivo armazenar e mostrar informações obt
 4. **Início:** Ligar a placa e iniciar o sistema.
 
 ## Dependências
-* **Bibliotecas:** Pandas, Flask, Json, datetime
+* **Bibliotecas:** Pandas, Flask,flask_cors, Json e datetime
 
 
 ## Informações Adicionais
