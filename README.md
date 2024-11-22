@@ -1,5 +1,8 @@
 # API de Monitoramento e Controle de Energia
 Global Solution Semestre 1 - Caio, Junior e Wesley
+ * Caio Martinez Saes RM: 560753
+ * Wesley Santos Zimmer RM: 560264
+ * José Claudio da Silva Junior RM: 559680
 
 ## Descrição
 Este projeto, em python, tem como objetivo armazenar e mostrar informações obtidades a partir dados de um ESP32 e um WebSite.
